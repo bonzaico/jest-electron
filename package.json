@@ -1,5 +1,5 @@
 {
-  "name": "jest-electron",
+  "name": "@bonzai/jest-electron",
   "version": "0.1.12",
   "description": "Easiest way to run jest unit test cases in electron.",
   "main": "index.js",
@@ -63,6 +63,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hustcc/jest-electron.git"
+    "url": "git+https://github.com/bonzaico/jest-electron.git"
   }
 }
