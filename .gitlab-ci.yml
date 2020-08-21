@@ -1,0 +1,29 @@
+image: node:lts
+
+stages:
+    - test
+    - release
+
+# Cache modules in between jobs
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - .npm/
+
+
+test:
+    stage: test
+    script:
+        - npm ci --cache .npm --prefer-offline
+        - npm test
+
+release:
+    stage: release
+    only: 
+        - master
+    when: manual
+    script:
+        - npm ci --cache .npm --prefer-offline
+        - npm run build
+        - npm run semantic-release --dry-run
+

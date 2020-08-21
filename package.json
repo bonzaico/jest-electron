@@ -50,6 +50,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rimraf": "^3.0.0",
+    "semantic-release": "^17.1.1",
     "ts-jest": "^26.2.0",
     "typescript": "^3.6.2"
   },
@@ -63,6 +64,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bonzaico/jest-electron.git"
+    "url": "git+https://gitlab.com/bonzaico/jest-electron.git"
   }
 }
