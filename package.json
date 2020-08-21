@@ -26,29 +26,31 @@
     ]
   },
   "dependencies": {
-    "electron": "^6.0.7",
-    "jest-haste-map": "~24.9.0",
-    "jest-message-util": "~24.9.0",
-    "jest-mock": "~24.9.0",
-    "jest-resolve": "~24.9.0",
-    "jest-runner": "~24.9.0",
-    "jest-runtime": "~24.9.0",
-    "jest-util": "~24.9.0",
+    "jest-haste-map": "^26.3.0",
+    "jest-message-util": "^26.3.0",
+    "jest-mock": "^26.3.0",
+    "jest-resolve": "^26.4.0",
+    "jest-runner": "^26.4.1",
+    "jest-runtime": "^26.4.1",
+    "jest-util": "^26.3.0",
     "throat": "^5.0.0",
     "tslib": "^1.10.0"
   },
   "peerDependencies": {
-    "jest": "^24.0.0"
+    "jest": "^26.0.0",
+    "electron": "^9.0.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
+    "@types/node": "^12.12.54",
     "@types/react": "^16.9.15",
     "copyfiles": "^2.1.1",
-    "jest": "^24.9.0",
+    "electron": "^9.0.0",
+    "jest": "^26.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rimraf": "^3.0.0",
-    "ts-jest": "^24.0.2",
+    "ts-jest": "^26.2.0",
     "typescript": "^3.6.2"
   },
   "keywords": [
